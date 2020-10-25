@@ -21,11 +21,11 @@ CREATE DATABASE databasename;
 $cd PATH/TO/REPO/Ozzy_Test
 ```
 ### 3. Run script with two ways
-### Way 1
+### Way 1 Client-Server
 ```
 python ozzymain.py -cs
 ```
-### Way 2
+### Way 2 Threading
 ```
 python ozzymain.py -th
 ```
