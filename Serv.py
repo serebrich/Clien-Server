@@ -113,7 +113,11 @@ server_socket.listen()
 print("Server is running...")
 
 # Run the client
-subprocess.Popen(["python", "Client.py"])
+if sys.platform == "linux" or sys.platform == "darwin":
+    subprocess.Popen(["python3", "Client.py"])
+elif sys.platform == "win32":
+    subprocess.Popen(["python", "Client.py"])
+
 
 # Main loop
 while True:
