@@ -1,6 +1,3 @@
-# Ozzy_Test
-Test task for OzzyLogic
-
 # Usage
 ### Install PyMySQL
 ```python
